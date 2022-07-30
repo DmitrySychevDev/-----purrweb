@@ -1,0 +1,827 @@
+@media screen and (max-width:1200px) {
+    body header{
+            padding-right: 20px;
+            padding-left: 20px;
+    }
+    body main{
+        .purpose {
+            &-typography{
+                padding-right: 100px;}
+            &__img-block{
+              
+
+                    & img{
+                        
+                        height: 100%;
+                        left: -20%;
+                        
+                    }
+                   
+                }
+            }
+            .scaner {
+                height: 60%;
+                gap:0;
+                &-content{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    align-items: center;
+                    padding-left: 0px;
+                    &__verefication-steps {
+                        padding-top: 100px;
+                        padding: 0 100px;
+                        width: 100%;
+                        margin-top: 0px;
+                    }
+                    &__text-block{
+                        width: 60%;
+                        max-width: 100%;
+                    }
+            }
+        }
+        .qr-code{
+            &_orders{
+                height: 650px;
+            }
+        }
+        .tool-integration{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           &-diagramms{
+            width: 80%;
+            
+
+           }
+           &-text{
+            width: 100%;
+            margin-bottom: 100px;
+           }
+        }
+    }
+}
+@media screen and (max-width:1000px)  {
+
+body{
+header{
+        padding: 15px;
+        padding-right: 0px;
+        .navbar {
+        padding-right: 15px;
+        gap: 0px;
+        justify-content: space-between; 
+    }
+        }
+
+        .about-platform {
+        
+        
+            &-img{
+            display: block;
+             background: url("../images/cropped-phone.png") no-repeat;
+             
+             background-position: right;
+             height: 800px;
+             width: 40%;
+                &:before
+                    {
+                        width: 90%;
+                        height: 600px;
+                        filter: blur(170px);
+                        left: -100px;   
+                    }
+        
+                 &:after {
+                  display: none;
+            }   
+        }  
+    }
+    .download {
+        flex-direction: column;
+        align-items: center;
+       
+      
+    }
+ 
+main{
+    .cards-block{
+        flex-direction: column;
+        align-items: center;
+
+    .card{
+        width: 70%;
+        height: 40%;
+        &__content{
+          width: 80%;
+          padding: 50px 50px;
+          max-width: 100%;
+          
+        }
+    }
+}
+.purpose {
+    flex-direction: column-reverse;
+    
+    &-typography{
+        
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+       padding: 0 100px;
+        width: 100%;
+        &__header{
+            max-width: 100%;
+            
+   
+           }
+           &__text{
+               max-width: 100%;
+               
+           }
+    }
+      
+    &__img-block{
+        align-self: center;
+        height: auto;
+        position: static;
+        margin-top: 60px;
+        margin-bottom: 120px;
+        width: auto;
+           &_hor{
+            display: none;
+           }
+           &_ver{
+            display: block;
+            margin: auto;
+            
+           }
+           
+        }
+}
+    .scaner {
+        height: auto;
+        &-content{
+          padding-top: 350px;
+          gap:0;
+    &__verefication-steps {
+            flex-direction: column;
+            height: auto;
+            align-items: center;
+    }
+        }
+    }
+    .tool-integration {
+        padding-left: 15px;
+
+    &-diagramms {   
+        padding-left: 50px;
+        &__block_1 {
+            right: auto;
+            left: 0%;
+            top: 40%;
+            img {
+                width: 144px;
+                height: auto;
+              }
+        }
+        &__block_2 {
+            right: auto;
+            left: 0;
+            top: 0;
+        }
+        &__block_3 {
+            left: auto;
+            right: 1%;
+            top: -27%;
+
+            img {
+              width: 85px;
+              height: auto;
+            }
+        }
+        &__block_4 {
+            display: none;
+        }
+        &__block_5 {
+            left: auto;
+            right: 25%;
+            top: -10%;
+
+            img {
+              width: 90px;
+              height: auto;
+            }
+        }
+        &__block_6 {
+            left: 30%;
+            bottom: auto;
+            right: auto;
+            top: 25%;
+
+            img {
+              width: 90px;
+              height: auto;
+            }
+        }
+        &__block_7 {
+            left: 40%;
+            bottom: auto;
+            right: auto;
+            top: 70%;
+            }
+        }
+    }
+    .qr-code {
+        background: url("../images/party.png") no-repeat 0 0/100%,
+        url("../images/coctail.png") no-repeat 0 660px/100%;
+       
+        &::before{
+        left: 0%;
+        top: 700px;
+        right: auto;
+        width: 110px;
+        height: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+              }
+        
+            &-orders{
+                height: 100%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                margin-bottom: 160px;
+                &__order_1
+                {
+                    margin-top: 200px;
+                }
+               
+            }
+        
+            &-generate{
+                     height: 80%px;
+                    position: relative;
+                    margin-top: 200px;
+                    display: flex;
+                    flex-direction: column-reverse;
+                  
+                &-img-block{
+                   
+                    &__phone{
+                      
+                        &::after{
+                            top: 80%;
+                            right: 0%;
+                            bottom: 0%;
+                            left: 100%;
+                            transform: rotate(45deg);
+                        }
+                        &::before{
+                            right: -50%;
+                            top: auto;
+                            bottom: -10%;
+                           
+                            font-size: 20px;
+                            width: 150px;
+                            display: flex;
+                            align-items: flex-end;
+                        }
+                    }
+                }
+                
+               
+                &-info{
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    padding-top: 120px;
+                    flex-direction: column;
+                    
+                    &__header{
+                       max-width: 100%;
+                       font-size: 40px;
+                    }
+                    &__description{
+                      padding-top: 30px;
+                      max-width: 100%;
+                      text-align: left;
+                    }
+                }
+            }
+        }
+        
+     .easier-ordering{
+      
+        
+        &-advantages{
+           
+            &-cards{
+                width: 90%;
+                height: 900px;                
+            }
+        }
+     }
+     .notab{
+        display: none;
+            }
+        }   
+    }
+}
+@media screen and(max-width:768px) {
+    
+body{
+            .about-platform {
+                &-typography{
+                    &__header{
+                        font-size: 35px;
+                    }
+                }        
+               &-img{
+                    width: 300px;
+                    height: 500px;
+                    background-size: contain;
+            }  
+        }
+        .download {
+            gap:45px;
+            &-marketplase{
+                flex-direction: column;
+                align-items: center;
+                width: 40%;
+                &__play-market,
+                &__app-store {
+                  width: 100%;
+                  a {
+                    img {
+                      width: 100%;
+                    }
+                  }
+                }
+            }
+        }
+    main{
+        .cards-block{
+            flex-direction: column;
+            align-items: center;
+    }
+        .scaner {
+            height: auto;
+            &-content{
+              padding-top: 350px;
+              gap:0;
+        &__verefication-steps {
+                flex-direction: column;
+                height: auto;
+                align-items: center;
+        }
+            }
+        }
+       
+        .qr-code {
+            &-text{
+                align-self: flex-start;
+                max-width: 90%;
+                padding-left: 20px;
+            }
+           &-content{
+            flex-direction: column;
+            padding-left: 0;
+           
+           }
+           &-info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin-top: 350px;
+            .download {
+                &-marketplase{
+                    width: 30%;
+           }
+        }
+    }       
+                &-orders{
+                    height: 100%;
+                    align-items: center;
+                    gap: 50px;
+                    margin-bottom: 160px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-right: 0;
+                    &__order_1
+                    {
+                        margin-top: 200px;
+                    }
+                    &__order_2{
+                        align-self: start;
+                    }              
+                }
+                &-generate{
+                         height: 80%;
+                        position: relative;
+                        margin-top: 200px;
+                        display: flex;
+                        flex-direction: column-reverse;
+                      
+                    &-img-block{
+                       
+                        &__phone{
+                          
+                            &::after{
+                                top: auto;
+                                right: 0%;
+                                bottom: -30%;
+                                left: 100%;
+                                transform: rotate(45deg);
+                            }
+                            &::before{
+                                right: -50%;
+                                top: auto;
+                                bottom: -40%;
+                               
+                                font-size: 20px;
+                                width: 150px;
+                                display: flex;
+                                align-items: flex-end;
+                            }
+                        }
+                    }
+                    
+                   
+                  
+                }
+            }
+         .easier-ordering{
+            &-advantages{
+               
+                &-cards{
+                    width: 90%;
+                    height: 900px;                
+                }
+            }
+         }
+      }
+           .get-in-touch{
+            .download {
+                &-marketplase{
+                    width: 100%;
+                    height: auto;
+            }
+           }
+        }
+        .footer {
+            flex-direction: column-reverse;
+            align-items: center;
+            text-align: center;
+            gap: 60px;
+            .copyright{
+                &__logo{
+                    img{
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (max-width: 576px) {
+    body {
+        .cookie {
+          padding-left: 10px;
+          gap: 20px;
+        }
+        header{
+                z-index: 2;
+                .navbar{
+                    &-login{
+                        &__avatar{
+                            display: none;
+                        }
+                    }
+                }
+                .about-platform {
+                    &-typography{
+                        z-index: 1;
+                      width: 60%;
+                      gap: 0;
+                      &__header{
+                        margin-bottom: 25px;
+                        line-height: 40px;
+                      }
+                      &__text{
+                        line-height: 22px;
+                        font-size: 16px;
+                      }
+                      &-purpose{
+                        &__line{
+                            display: none;
+                        }
+                      }
+                    }
+                }
+                .download{
+                    gap: 34px;
+                    &-typography{
+                        &__text{
+                        font-size: 24px;
+                        }
+                    }
+                }
+        }
+        main{
+            .cards-block{
+                .card{
+                    width: 95%;
+                    
+                }
+                .card__content {
+                    width: auto;
+                    &__header{
+                        font-size: 24px;
+                    }
+                    &__link a{
+                        font-size: 16px;
+                    }
+                }
+            }
+            .purpose-typography{
+                padding-left: 15px;
+                padding-right: 45px;
+                
+            }
+            .purpose-typography__header {
+                &::before{
+                    right: auto;
+                    left:0;
+                }
+                font-size: 24px;
+            }
+            .purpose-typography__text {
+                font-size: 16px;
+
+            }
+            .scaner {
+                margin-top: 190px;
+                background-size: auto 300px;
+                &-content{
+                    padding-top: 200px;
+                    &__text-block{
+                        width: 100%;
+                        padding-left: 15px;
+                        padding-right: 15px;
+
+                        &-header{
+                            font-size: 24px;
+                            padding-bottom: 24px;
+                        }
+                        &-description{
+                            font-size: 16px;
+                            padding-top: 0;
+                        }
+                    }
+                }
+            }
+          
+            .tool-integration {
+                &-text{
+                    &__header{
+                        font-size: 24px;
+                        line-height: 0px;
+                    }
+                    &__description{
+                        font-size: 16px;
+                    }
+                }
+                &-diagramms{
+                    height: 200px;
+                    width: 100%;
+                    &__block_1{
+                        left: -10%;
+                        top: 17%;
+                    }
+                    &__block_2{
+                        width: 110px;
+                        height: 22px;
+                        gap: 5px;
+            
+                        img {
+                          width: 25%;
+                        }
+                    }
+                    &__block_3{
+                        width: 85px;
+                        height: 90px;
+                        top: -13%;
+                        right: 3%;
+                        img {
+                          width: 100%;
+                        }
+                    }
+                    &__block_5{
+                        width: 90px;
+                        height: 56px;
+                        top: 5%;
+                        right: 23%;
+
+                        img {
+                        width: 100%;
+                        } 
+                    }
+                    &__block_6{
+                        top: 35%;
+                        left: 40%;
+                    }
+                    &__block_7{
+                          left: auto;
+                          right: 0;
+                          bottom: 5%;
+                        &__circle{
+                          
+                            &:nth-child(4){
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+        .qr-code {
+            background: url("../images/party.png") no-repeat top left/100% 350px, url("../images/coctail.png") no-repeat right 660px/80%;
+            margin-top: 40px;
+            &::before{
+                top: 750px;
+                left:15%;
+            }
+            &-content{
+                .download-marketplase {
+                    width: 40%;
+                  
+                }
+            }
+            &-orders{
+                height: auto;
+                margin-bottom: 0px;
+                &__order_1{
+                    margin-top: 30px;
+                }
+            }
+            &-info{
+                margin-top: 227px;
+            }
+            &-text{
+                &__header{
+                        font-size:24px ;
+                    }
+                &__description{
+                    font-size: 16px;
+                    line-height: 22px;
+                    }
+
+                }
+                &-generate{
+                    margin-top: 130px;
+                    &-img-block{
+                        background-size: 100% auto;
+                        background-repeat: no-repeat;
+                        &__phone{
+                            height: auto;
+                            width: 50%;
+                            &::after{
+                                bottom: 10%;
+                                
+                            }
+                            &::before{
+                                bottom: 0;
+                                right: -60%;
+                            }
+                        }
+                      
+                    }
+                    &-info{
+                        padding-left: 15px;
+                        padding-top: 0;
+                        align-items: flex-start;
+                        &__header{
+                            font-size: 24px;
+                            line-height: 29px;
+                            text-align: left;
+                        }
+                        &__description{
+                            font-size: 16px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+            .easier-ordering {
+                &-wraper-text{
+                    padding-right: 0;
+                    justify-content: left;    
+                }
+                &-text-block{
+                    
+                    padding-left: 15px;
+                    & h2{
+                        font-size: 24px;
+                        line-height: 29px;
+                        width: 60%;
+                        
+                    }
+                    & p{
+                        font-size: 16px;
+                        line-height: 22px;
+                        width: 100%;
+                    }
+                }
+                &-advantages{
+                    &-cards{
+                        background-size: 360px 430px;
+                        background-repeat: no-repeat;
+                        margin-top: 145px;
+                        height: 430px;
+                        &__card{
+                            font-size: 14px;
+                            line-height: 16px;
+                          
+                            &:nth-child(1){
+                                width: 190px;
+                                height: 70px;
+                                left: 10%;
+                                
+                                 padding: 13px 15px 12px 14px;
+                                 top:-20%;
+                            }
+                            &:nth-child(2){
+                                width: 200px;
+                                height: 70px;
+                                padding: 15px 18px 15px 17px;
+                                top:5%;
+                                left: auto;
+                                right: 0%;
+                            }
+                            &:nth-child(3){
+                                width: 122px;
+                                height: 58px;
+                                padding: 13px 5px 13px 18px;
+                                bottom: -10%;
+                                right: 5%;
+                            }
+                            &:nth-child(4){
+                                width: 107px;
+                                height: 43px;
+                                padding: 14px 0px 13px 10px;
+                                bottom: 10%;
+                                left: 10%;
+        
+                            }
+                        }
+                    }
+                }
+            }
+           
+            .get-in-touch {
+                margin-top: 147px;
+                &__text{
+                    width: 90%;
+                    & h2{
+                        font-size: 24px;
+                        line-height: 29px;
+                    }
+                    & p{
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
+                &-form-block{
+                    width: 90%;
+
+                }
+                &-form{
+                    gap: 16px;
+                  
+                    &-city-info{
+                        flex-direction: column;
+                        gap: 16px;
+                    }
+                    &__button{
+                        width: 100%;
+                        margin-top: 24px;
+                        z-index: 5;
+                        position: relative;
+                        background-color: rgba($color: #000000, $alpha: 0);
+                    }
+                }
+                .download-marketplase{
+                    width: 70%;
+                }
+            }
+
+          
+        }
+    }
+}
+
+       
+
+    
